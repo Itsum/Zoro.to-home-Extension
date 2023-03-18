@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Zoro Logo Changer",
+  "version": "1.0",
+  "permissions": [],
+  "host_permissions": [
+    "https://zoro.to/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://zoro.to/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
